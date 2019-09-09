@@ -1,0 +1,11 @@
+<!--pages/vedio/vedio.wxml-->
+<swiper style='margin-top:150rpx;' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:for-index="{{index}}" wx:key="{{index}}">
+    <swiper-item>
+      <image wx:if="{{item.ispic}}" src="{{item.url}}" class="slide-image" width="355" height="150"/>
+      <video wx:if="{{!item.ispic}}" id="myVideo" src="{{item.url}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls autoplay></video>
+    </swiper-item>
+  </block>
+</swiper>
+<button open-type='share'>分享</button>

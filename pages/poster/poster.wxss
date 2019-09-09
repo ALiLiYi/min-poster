@@ -1,0 +1,18 @@
+/* pages/poster/poster.wxss */
+.btn{
+
+text-align: center;
+
+margin-top: 300rpx;
+
+}
+
+.canvas-box{
+
+position: fixed;
+
+top: 0;
+
+left: -9999px;
+
+}

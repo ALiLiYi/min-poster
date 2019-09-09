@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/poster/poster",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "海报生成",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/poster/poster",
+        "text": "海报"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "轮播"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
